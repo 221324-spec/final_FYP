@@ -89,3 +89,7 @@ jspm_packages/
 
 # DynamoDB Local files
 .dynamodb/
+
+# Markdown files (excluding README)
+*.md
+!README.md
