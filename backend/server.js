@@ -12,8 +12,15 @@ const app = express();
 const server = http.createServer(app);
 
 const allowedOrigins = getAllowedOrigins();
-const corsOriginOption =
-  allowedOrigins.length > 0 ? allowedOrigins : true;
+const corsOriginOption = function (origin, callback) {
+  if (!origin) return callback(null, true);
+  if (origin.endsWith('.vercel.app')) return callback(null, true);
+  if (allowedOrigins.length > 0) {
+    if (allowedOrigins.includes(origin)) return callback(null, true);
+    return callback(new Error('Not allowed by CORS'));
+  }
+  return callback(null, true);
+};
 
 // Socket.IO - Enhanced real-time functionality
 const { Server } = require('socket.io');
