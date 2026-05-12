@@ -1,0 +1,234 @@
+[
+  {
+    "text": "mujhe very anxiety ho rahi hai heart racing fast",
+    "emotion": "anxiety",
+    "originalText": "Mujhe bohat ghabrahat ho rahi hai, heart racing fast",
+    "split": "train",
+    "source": "train:0",
+    "variant": "normalized"
+  },
+  {
+    "text": "mujhe bohat ghabrahat ho rahi hai heart racing fast",
+    "emotion": "anxiety",
+    "originalText": "Mujhe bohat ghabrahat ho rahi hai, heart racing fast",
+    "split": "train",
+    "source": "train:0",
+    "variant": "roman-urdu"
+  },
+  {
+    "text": "mujhe vry anxiety ho rahi hai heart racing fast",
+    "emotion": "anxiety",
+    "originalText": "Mujhe bohat ghabrahat ho rahi hai, heart racing fast",
+    "split": "train",
+    "source": "train:0",
+    "variant": "noisy"
+  },
+  {
+    "text": "i am nervous and shaky about tomorrow",
+    "emotion": "anxiety",
+    "originalText": "I am nervous and shaky about tomorrow",
+    "split": "train",
+    "source": "train:1",
+    "variant": "normalized"
+  },
+  {
+    "text": "i'm nervous and shaky about tomorrow",
+    "emotion": "anxiety",
+    "originalText": "I am nervous and shaky about tomorrow",
+    "split": "train",
+    "source": "train:1",
+    "variant": "casual-slang"
+  },
+  {
+    "text": "feeling empty and alone nobody understands",
+    "emotion": "sadness",
+    "originalText": "Feeling empty and alone, nobody understands",
+    "split": "train",
+    "source": "train:2",
+    "variant": "normalized"
+  },
+  {
+    "text": "today very udaas hoon crying since morning",
+    "emotion": "sadness",
+    "originalText": "Aaj bohat udaas hoon, crying since morning",
+    "split": "train",
+    "source": "train:3",
+    "variant": "normalized"
+  },
+  {
+    "text": "today bohat udaas hoon crying since morning",
+    "emotion": "sadness",
+    "originalText": "Aaj bohat udaas hoon, crying since morning",
+    "split": "train",
+    "source": "train:3",
+    "variant": "roman-urdu"
+  },
+  {
+    "text": "aaj vry udaas hoon crying since morning",
+    "emotion": "sadness",
+    "originalText": "Aaj bohat udaas hoon, crying since morning",
+    "split": "train",
+    "source": "train:3",
+    "variant": "noisy"
+  },
+  {
+    "text": "i am furious and cannot stop thinking about the fight",
+    "emotion": "anger",
+    "originalText": "I am furious and cannot stop thinking about the fight",
+    "split": "train",
+    "source": "train:4",
+    "variant": "normalized"
+  },
+  {
+    "text": "i'm furious and cant stop thinking about the fight",
+    "emotion": "anger",
+    "originalText": "I am furious and cannot stop thinking about the fight",
+    "split": "train",
+    "source": "train:4",
+    "variant": "casual-slang"
+  },
+  {
+    "text": "friend i am so irritated right now",
+    "emotion": "anger",
+    "originalText": "Yaar I am so irritated right now",
+    "split": "train",
+    "source": "train:5",
+    "variant": "normalized"
+  },
+  {
+    "text": "friend i'm so irritated right now",
+    "emotion": "anger",
+    "originalText": "Yaar I am so irritated right now",
+    "split": "train",
+    "source": "train:5",
+    "variant": "casual-slang"
+  },
+  {
+    "text": "yaar i am so irritated right now",
+    "emotion": "anger",
+    "originalText": "Yaar I am so irritated right now",
+    "split": "train",
+    "source": "train:5",
+    "variant": "noisy"
+  },
+  {
+    "text": "i am proud of my 30 day streak and feel hopeful",
+    "emotion": "hope",
+    "originalText": "I am proud of my 30 day streak and feel hopeful",
+    "split": "train",
+    "source": "train:6",
+    "variant": "normalized"
+  },
+  {
+    "text": "i'm proud of my 30 day streak and feel hopeful",
+    "emotion": "hope",
+    "originalText": "I am proud of my 30 day streak and feel hopeful",
+    "split": "train",
+    "source": "train:6",
+    "variant": "casual-slang"
+  },
+  {
+    "text": "alhamdulillah progress is slow but i am healing",
+    "emotion": "hope",
+    "originalText": "Alhamdulillah, progress is slow but I am healing",
+    "split": "train",
+    "source": "train:7",
+    "variant": "normalized"
+  },
+  {
+    "text": "alhamdulillah progress is slow but i'm healing",
+    "emotion": "hope",
+    "originalText": "Alhamdulillah, progress is slow but I am healing",
+    "split": "train",
+    "source": "train:7",
+    "variant": "casual-slang"
+  },
+  {
+    "text": "normal day cooked lunch went to work",
+    "emotion": "neutral",
+    "originalText": "Normal day, cooked lunch, went to work",
+    "split": "train",
+    "source": "train:8",
+    "variant": "normalized"
+  },
+  {
+    "text": "just checking in nothing big to report",
+    "emotion": "neutral",
+    "originalText": "Just checking in, nothing big to report",
+    "split": "train",
+    "source": "train:9",
+    "variant": "normalized"
+  },
+  {
+    "text": "my chest feels tight and i cannot settle down",
+    "emotion": "anxiety",
+    "originalText": "My chest feels tight and I cannot settle down",
+    "split": "train",
+    "source": "train:10",
+    "variant": "normalized"
+  },
+  {
+    "text": "my chest feels tight and i cant settle down",
+    "emotion": "anxiety",
+    "originalText": "My chest feels tight and I cannot settle down",
+    "split": "train",
+    "source": "train:10",
+    "variant": "casual-slang"
+  },
+  {
+    "text": "i miss people and feel really low today",
+    "emotion": "sadness",
+    "originalText": "I miss people and feel really low today",
+    "split": "train",
+    "source": "train:11",
+    "variant": "normalized"
+  },
+  {
+    "text": "i miss people and feel really low aaj",
+    "emotion": "sadness",
+    "originalText": "I miss people and feel really low today",
+    "split": "train",
+    "source": "train:11",
+    "variant": "noisy"
+  },
+  {
+    "text": "this situation is making me angry and bitter",
+    "emotion": "anger",
+    "originalText": "This situation is making me angry and bitter",
+    "split": "train",
+    "source": "train:12",
+    "variant": "normalized"
+  },
+  {
+    "text": "i am feeling thankful for the small wins today",
+    "emotion": "hope",
+    "originalText": "I am feeling thankful for the small wins today",
+    "split": "train",
+    "source": "train:13",
+    "variant": "normalized"
+  },
+  {
+    "text": "i'm feeling thankful for the small wins today",
+    "emotion": "hope",
+    "originalText": "I am feeling thankful for the small wins today",
+    "split": "train",
+    "source": "train:13",
+    "variant": "casual-slang"
+  },
+  {
+    "text": "i am feeling thankful for the small wins aaj",
+    "emotion": "hope",
+    "originalText": "I am feeling thankful for the small wins today",
+    "split": "train",
+    "source": "train:13",
+    "variant": "noisy"
+  },
+  {
+    "text": "i cleaned the room answered emails and went to bed",
+    "emotion": "neutral",
+    "originalText": "I cleaned the room, answered emails, and went to bed",
+    "split": "train",
+    "source": "train:14",
+    "variant": "normalized"
+  }
+]

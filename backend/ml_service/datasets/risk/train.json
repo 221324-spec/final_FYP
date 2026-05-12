@@ -1,0 +1,866 @@
+[
+  {
+    "features": {
+      "avgCraving": 0.92,
+      "maxCraving": 1,
+      "avgMood": 0.1,
+      "moodDecline": 0.9,
+      "triggers": 0.85,
+      "activity": 0,
+      "missed": 1,
+      "relapses": 0.8
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:0",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.9500000000000001,
+      "maxCraving": 1,
+      "avgMood": 0.08,
+      "moodDecline": 0.93,
+      "triggers": 0.87,
+      "activity": 0,
+      "missed": 1,
+      "relapses": 0.8200000000000001
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:0",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.89,
+      "maxCraving": 0.98,
+      "avgMood": 0.12000000000000001,
+      "moodDecline": 0.88,
+      "triggers": 0.83,
+      "activity": 0.02,
+      "missed": 0.98,
+      "relapses": 0.78
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:0",
+    "variant": "slight-down"
+  },
+  {
+    "features": {
+      "avgCraving": 0.84,
+      "maxCraving": 0.95,
+      "avgMood": 0.18,
+      "moodDecline": 0.82,
+      "triggers": 0.7,
+      "activity": 0.05,
+      "missed": 0.7,
+      "relapses": 0.6
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:1",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.87,
+      "maxCraving": 0.98,
+      "avgMood": 0.16,
+      "moodDecline": 0.85,
+      "triggers": 0.72,
+      "activity": 0.030000000000000002,
+      "missed": 0.72,
+      "relapses": 0.62
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:1",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.8099999999999999,
+      "maxCraving": 0.9299999999999999,
+      "avgMood": 0.19999999999999998,
+      "moodDecline": 0.7999999999999999,
+      "triggers": 0.6799999999999999,
+      "activity": 0.07,
+      "missed": 0.6799999999999999,
+      "relapses": 0.58
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:1",
+    "variant": "slight-down"
+  },
+  {
+    "features": {
+      "avgCraving": 0.78,
+      "maxCraving": 0.9,
+      "avgMood": 0.22,
+      "moodDecline": 0.75,
+      "triggers": 0.8,
+      "activity": 0.1,
+      "missed": 0.7,
+      "relapses": 0.5
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:2",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.81,
+      "maxCraving": 0.93,
+      "avgMood": 0.2,
+      "moodDecline": 0.78,
+      "triggers": 0.8200000000000001,
+      "activity": 0.08,
+      "missed": 0.72,
+      "relapses": 0.52
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:2",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.75,
+      "maxCraving": 0.88,
+      "avgMood": 0.24,
+      "moodDecline": 0.73,
+      "triggers": 0.78,
+      "activity": 0.12000000000000001,
+      "missed": 0.6799999999999999,
+      "relapses": 0.48
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:2",
+    "variant": "slight-down"
+  },
+  {
+    "features": {
+      "avgCraving": 0.8,
+      "maxCraving": 1,
+      "avgMood": 0.12,
+      "moodDecline": 0.88,
+      "triggers": 0.9,
+      "activity": 0,
+      "missed": 1,
+      "relapses": 1
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:3",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.8300000000000001,
+      "maxCraving": 1,
+      "avgMood": 0.09999999999999999,
+      "moodDecline": 0.91,
+      "triggers": 0.92,
+      "activity": 0,
+      "missed": 1,
+      "relapses": 1
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:3",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.77,
+      "maxCraving": 0.98,
+      "avgMood": 0.13999999999999999,
+      "moodDecline": 0.86,
+      "triggers": 0.88,
+      "activity": 0.02,
+      "missed": 0.98,
+      "relapses": 0.98
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:3",
+    "variant": "slight-down"
+  },
+  {
+    "features": {
+      "avgCraving": 0.7,
+      "maxCraving": 0.82,
+      "avgMood": 0.2,
+      "moodDecline": 0.8,
+      "triggers": 0.72,
+      "activity": 0.05,
+      "missed": 1,
+      "relapses": 0.4
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:4",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.73,
+      "maxCraving": 0.85,
+      "avgMood": 0.18000000000000002,
+      "moodDecline": 0.8300000000000001,
+      "triggers": 0.74,
+      "activity": 0.030000000000000002,
+      "missed": 1,
+      "relapses": 0.42000000000000004
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:4",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.6699999999999999,
+      "maxCraving": 0.7999999999999999,
+      "avgMood": 0.22,
+      "moodDecline": 0.78,
+      "triggers": 0.7,
+      "activity": 0.07,
+      "missed": 0.98,
+      "relapses": 0.38
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:4",
+    "variant": "slight-down"
+  },
+  {
+    "features": {
+      "avgCraving": 0.88,
+      "maxCraving": 0.98,
+      "avgMood": 0.15,
+      "moodDecline": 0.85,
+      "triggers": 0.95,
+      "activity": 0,
+      "missed": 0.7,
+      "relapses": 0.9
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:5",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.91,
+      "maxCraving": 1,
+      "avgMood": 0.13,
+      "moodDecline": 0.88,
+      "triggers": 0.97,
+      "activity": 0,
+      "missed": 0.72,
+      "relapses": 0.92
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:5",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.85,
+      "maxCraving": 0.96,
+      "avgMood": 0.16999999999999998,
+      "moodDecline": 0.83,
+      "triggers": 0.9299999999999999,
+      "activity": 0.02,
+      "missed": 0.6799999999999999,
+      "relapses": 0.88
+    },
+    "label": "HIGH",
+    "split": "train",
+    "source": "train:5",
+    "variant": "slight-down"
+  },
+  {
+    "features": {
+      "avgCraving": 0.58,
+      "maxCraving": 0.7,
+      "avgMood": 0.35,
+      "moodDecline": 0.5,
+      "triggers": 0.45,
+      "activity": 0.25,
+      "missed": 0.35,
+      "relapses": 0.2
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:6",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.61,
+      "maxCraving": 0.73,
+      "avgMood": 0.32999999999999996,
+      "moodDecline": 0.53,
+      "triggers": 0.47000000000000003,
+      "activity": 0.23,
+      "missed": 0.37,
+      "relapses": 0.22
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:6",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.5499999999999999,
+      "maxCraving": 0.6799999999999999,
+      "avgMood": 0.37,
+      "moodDecline": 0.48,
+      "triggers": 0.43,
+      "activity": 0.27,
+      "missed": 0.32999999999999996,
+      "relapses": 0.18000000000000002
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:6",
+    "variant": "slight-down"
+  },
+  {
+    "features": {
+      "avgCraving": 0.52,
+      "maxCraving": 0.65,
+      "avgMood": 0.4,
+      "moodDecline": 0.42,
+      "triggers": 0.4,
+      "activity": 0.3,
+      "missed": 0.35,
+      "relapses": 0.15
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:7",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.55,
+      "maxCraving": 0.68,
+      "avgMood": 0.38,
+      "moodDecline": 0.44999999999999996,
+      "triggers": 0.42000000000000004,
+      "activity": 0.27999999999999997,
+      "missed": 0.37,
+      "relapses": 0.16999999999999998
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:7",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.49,
+      "maxCraving": 0.63,
+      "avgMood": 0.42000000000000004,
+      "moodDecline": 0.39999999999999997,
+      "triggers": 0.38,
+      "activity": 0.32,
+      "missed": 0.32999999999999996,
+      "relapses": 0.13
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:7",
+    "variant": "slight-down"
+  },
+  {
+    "features": {
+      "avgCraving": 0.66,
+      "maxCraving": 0.78,
+      "avgMood": 0.3,
+      "moodDecline": 0.58,
+      "triggers": 0.55,
+      "activity": 0.18,
+      "missed": 0.7,
+      "relapses": 0.25
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:8",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.6900000000000001,
+      "maxCraving": 0.81,
+      "avgMood": 0.27999999999999997,
+      "moodDecline": 0.61,
+      "triggers": 0.5700000000000001,
+      "activity": 0.16,
+      "missed": 0.72,
+      "relapses": 0.27
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:8",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.63,
+      "maxCraving": 0.76,
+      "avgMood": 0.32,
+      "moodDecline": 0.5599999999999999,
+      "triggers": 0.53,
+      "activity": 0.19999999999999998,
+      "missed": 0.6799999999999999,
+      "relapses": 0.23
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:8",
+    "variant": "slight-down"
+  },
+  {
+    "features": {
+      "avgCraving": 0.47,
+      "maxCraving": 0.6,
+      "avgMood": 0.44,
+      "moodDecline": 0.36,
+      "triggers": 0.38,
+      "activity": 0.34,
+      "missed": 0,
+      "relapses": 0.1
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:9",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.5,
+      "maxCraving": 0.63,
+      "avgMood": 0.42,
+      "moodDecline": 0.39,
+      "triggers": 0.4,
+      "activity": 0.32,
+      "missed": 0.02,
+      "relapses": 0.12000000000000001
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:9",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.43999999999999995,
+      "maxCraving": 0.58,
+      "avgMood": 0.46,
+      "moodDecline": 0.33999999999999997,
+      "triggers": 0.36,
+      "activity": 0.36000000000000004,
+      "missed": 0,
+      "relapses": 0.08
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:9",
+    "variant": "slight-down"
+  },
+  {
+    "features": {
+      "avgCraving": 0.62,
+      "maxCraving": 0.74,
+      "avgMood": 0.33,
+      "moodDecline": 0.55,
+      "triggers": 0.5,
+      "activity": 0.2,
+      "missed": 0.35,
+      "relapses": 0.3
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:10",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.65,
+      "maxCraving": 0.77,
+      "avgMood": 0.31,
+      "moodDecline": 0.5800000000000001,
+      "triggers": 0.52,
+      "activity": 0.18000000000000002,
+      "missed": 0.37,
+      "relapses": 0.32
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:10",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.59,
+      "maxCraving": 0.72,
+      "avgMood": 0.35000000000000003,
+      "moodDecline": 0.53,
+      "triggers": 0.48,
+      "activity": 0.22,
+      "missed": 0.32999999999999996,
+      "relapses": 0.27999999999999997
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:10",
+    "variant": "slight-down"
+  },
+  {
+    "features": {
+      "avgCraving": 0.55,
+      "maxCraving": 0.68,
+      "avgMood": 0.38,
+      "moodDecline": 0.46,
+      "triggers": 0.42,
+      "activity": 0.28,
+      "missed": 0,
+      "relapses": 0.12
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:11",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.5800000000000001,
+      "maxCraving": 0.7100000000000001,
+      "avgMood": 0.36,
+      "moodDecline": 0.49,
+      "triggers": 0.44,
+      "activity": 0.26,
+      "missed": 0.02,
+      "relapses": 0.13999999999999999
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:11",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.52,
+      "maxCraving": 0.66,
+      "avgMood": 0.4,
+      "moodDecline": 0.44,
+      "triggers": 0.39999999999999997,
+      "activity": 0.30000000000000004,
+      "missed": 0,
+      "relapses": 0.09999999999999999
+    },
+    "label": "MED",
+    "split": "train",
+    "source": "train:11",
+    "variant": "slight-down"
+  },
+  {
+    "features": {
+      "avgCraving": 0.12,
+      "maxCraving": 0.2,
+      "avgMood": 0.85,
+      "moodDecline": 0.05,
+      "triggers": 0.08,
+      "activity": 0.9,
+      "missed": 0,
+      "relapses": 0
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:12",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.15,
+      "maxCraving": 0.23,
+      "avgMood": 0.83,
+      "moodDecline": 0.08,
+      "triggers": 0.1,
+      "activity": 0.88,
+      "missed": 0.02,
+      "relapses": 0.02
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:12",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.09,
+      "maxCraving": 0.18000000000000002,
+      "avgMood": 0.87,
+      "moodDecline": 0.030000000000000002,
+      "triggers": 0.06,
+      "activity": 0.92,
+      "missed": 0,
+      "relapses": 0
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:12",
+    "variant": "slight-down"
+  },
+  {
+    "features": {
+      "avgCraving": 0.18,
+      "maxCraving": 0.3,
+      "avgMood": 0.78,
+      "moodDecline": 0.1,
+      "triggers": 0.12,
+      "activity": 0.82,
+      "missed": 0,
+      "relapses": 0
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:13",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.21,
+      "maxCraving": 0.32999999999999996,
+      "avgMood": 0.76,
+      "moodDecline": 0.13,
+      "triggers": 0.13999999999999999,
+      "activity": 0.7999999999999999,
+      "missed": 0.02,
+      "relapses": 0.02
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:13",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.15,
+      "maxCraving": 0.27999999999999997,
+      "avgMood": 0.8,
+      "moodDecline": 0.08,
+      "triggers": 0.09999999999999999,
+      "activity": 0.84,
+      "missed": 0,
+      "relapses": 0
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:13",
+    "variant": "slight-down"
+  },
+  {
+    "features": {
+      "avgCraving": 0.22,
+      "maxCraving": 0.32,
+      "avgMood": 0.72,
+      "moodDecline": 0.14,
+      "triggers": 0.16,
+      "activity": 0.7,
+      "missed": 0,
+      "relapses": 0
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:14",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.25,
+      "maxCraving": 0.35,
+      "avgMood": 0.7,
+      "moodDecline": 0.17,
+      "triggers": 0.18,
+      "activity": 0.6799999999999999,
+      "missed": 0.02,
+      "relapses": 0.02
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:14",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.19,
+      "maxCraving": 0.3,
+      "avgMood": 0.74,
+      "moodDecline": 0.12000000000000001,
+      "triggers": 0.14,
+      "activity": 0.72,
+      "missed": 0,
+      "relapses": 0
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:14",
+    "variant": "slight-down"
+  },
+  {
+    "features": {
+      "avgCraving": 0.08,
+      "maxCraving": 0.12,
+      "avgMood": 0.9,
+      "moodDecline": 0.02,
+      "triggers": 0.06,
+      "activity": 0.95,
+      "missed": 0,
+      "relapses": 0
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:15",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.11,
+      "maxCraving": 0.15,
+      "avgMood": 0.88,
+      "moodDecline": 0.05,
+      "triggers": 0.08,
+      "activity": 0.9299999999999999,
+      "missed": 0.02,
+      "relapses": 0.02
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:15",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.05,
+      "maxCraving": 0.09999999999999999,
+      "avgMood": 0.92,
+      "moodDecline": 0,
+      "triggers": 0.039999999999999994,
+      "activity": 0.97,
+      "missed": 0,
+      "relapses": 0
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:15",
+    "variant": "slight-down"
+  },
+  {
+    "features": {
+      "avgCraving": 0.3,
+      "maxCraving": 0.42,
+      "avgMood": 0.6,
+      "moodDecline": 0.25,
+      "triggers": 0.22,
+      "activity": 0.55,
+      "missed": 0,
+      "relapses": 0.05
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:16",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.32999999999999996,
+      "maxCraving": 0.44999999999999996,
+      "avgMood": 0.58,
+      "moodDecline": 0.28,
+      "triggers": 0.24,
+      "activity": 0.53,
+      "missed": 0.02,
+      "relapses": 0.07
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:16",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.27,
+      "maxCraving": 0.39999999999999997,
+      "avgMood": 0.62,
+      "moodDecline": 0.23,
+      "triggers": 0.2,
+      "activity": 0.5700000000000001,
+      "missed": 0,
+      "relapses": 0.030000000000000002
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:16",
+    "variant": "slight-down"
+  },
+  {
+    "features": {
+      "avgCraving": 0.24,
+      "maxCraving": 0.35,
+      "avgMood": 0.68,
+      "moodDecline": 0.18,
+      "triggers": 0.2,
+      "activity": 0.6,
+      "missed": 0,
+      "relapses": 0
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:17",
+    "variant": "normalized"
+  },
+  {
+    "features": {
+      "avgCraving": 0.27,
+      "maxCraving": 0.38,
+      "avgMood": 0.66,
+      "moodDecline": 0.21,
+      "triggers": 0.22,
+      "activity": 0.58,
+      "missed": 0.02,
+      "relapses": 0.02
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:17",
+    "variant": "slight-up"
+  },
+  {
+    "features": {
+      "avgCraving": 0.21,
+      "maxCraving": 0.32999999999999996,
+      "avgMood": 0.7000000000000001,
+      "moodDecline": 0.16,
+      "triggers": 0.18000000000000002,
+      "activity": 0.62,
+      "missed": 0,
+      "relapses": 0
+    },
+    "label": "LOW",
+    "split": "train",
+    "source": "train:17",
+    "variant": "slight-down"
+  }
+]

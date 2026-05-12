@@ -1,0 +1,37 @@
+[
+  {
+    "text": "i feel shaky and my thoughts are racing",
+    "emotion": "anxiety",
+    "originalText": "I feel shaky and my thoughts are racing",
+    "split": "test",
+    "source": "test:0"
+  },
+  {
+    "text": "the loss still hurts and i feel sad",
+    "emotion": "sadness",
+    "originalText": "The loss still hurts and I feel sad",
+    "split": "test",
+    "source": "test:1"
+  },
+  {
+    "text": "i am frustrated but trying not to react",
+    "emotion": "anger",
+    "originalText": "I am frustrated but trying not to react",
+    "split": "test",
+    "source": "test:2"
+  },
+  {
+    "text": "i am optimistic after a good call with my sponsor",
+    "emotion": "hope",
+    "originalText": "I am optimistic after a good call with my sponsor",
+    "split": "test",
+    "source": "test:3"
+  },
+  {
+    "text": "i ate breakfast worked and came home",
+    "emotion": "neutral",
+    "originalText": "I ate breakfast, worked, and came home",
+    "split": "test",
+    "source": "test:4"
+  }
+]

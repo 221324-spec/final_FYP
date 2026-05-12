@@ -1,0 +1,28 @@
+# Recovery Road — Emotion Service (DeepFace) Dependencies
+# Python 3.11 on Windows (CPU-first)
+# Install with: pip install -r requirements.txt
+#
+# NOTE: Pinned versions chosen for wheel availability on Windows.
+
+# Web Framework
+fastapi==0.115.0                       # Modern async web framework
+uvicorn==0.30.0                        # ASGI server
+python-multipart==0.0.9                # Form data parsing
+
+# Computer Vision & Deep Learning
+opencv-python-headless==4.8.1.78       # OpenCV (headless; Windows wheels available)
+numpy==1.26.4                          # Numerical computing
+scipy==1.13.1                          # Scientific computing (wheel version for Windows)
+
+# Face Recognition & Emotion Detection
+deepface==0.0.93                       # DeepFace
+tf-keras==2.15.0                       # Keras API
+tensorflow==2.15.0                     # TensorFlow CPU (wheel available for Windows)
+
+# Image processing
+Pillow==10.1.0                         # Image manipulation
+
+# Utilities
+python-dotenv==1.0.0                   # Environment variables
+requests==2.31.0                       # HTTP client
+pydantic==2.5.0                        # Data validation

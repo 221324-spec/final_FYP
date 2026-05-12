@@ -1,0 +1,37 @@
+[
+  {
+    "text": "dil very restless hai and i cannot relax",
+    "emotion": "anxiety",
+    "originalText": "Dil bohat bechain hai and I cannot relax",
+    "split": "validation",
+    "source": "validation:0"
+  },
+  {
+    "text": "i cried in the car because everything felt heavy",
+    "emotion": "sadness",
+    "originalText": "I cried in the car because everything felt heavy",
+    "split": "validation",
+    "source": "validation:1"
+  },
+  {
+    "text": "i wanted to yell but i walked away instead",
+    "emotion": "anger",
+    "originalText": "I wanted to yell but I walked away instead",
+    "split": "validation",
+    "source": "validation:2"
+  },
+  {
+    "text": "i can see progress and that gives me hope",
+    "emotion": "hope",
+    "originalText": "I can see progress and that gives me hope",
+    "split": "validation",
+    "source": "validation:3"
+  },
+  {
+    "text": "lunch chores and a normal evening",
+    "emotion": "neutral",
+    "originalText": "Lunch, chores, and a normal evening",
+    "split": "validation",
+    "source": "validation:4"
+  }
+]

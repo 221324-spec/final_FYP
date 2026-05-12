@@ -1,0 +1,263 @@
+[
+  {
+    "text": "i want to kill myself tonight mujhe lagta hai this is it",
+    "risk": "HIGH",
+    "emotion": "sadness",
+    "originalText": "I want to kill myself tonight, mujhe lagta hai this is it",
+    "split": "train",
+    "source": "train:0",
+    "variant": "normalized"
+  },
+  {
+    "text": "i took too many pills and i do not care anymore",
+    "risk": "HIGH",
+    "emotion": "sadness",
+    "originalText": "I took too many pills and I do not care anymore",
+    "split": "train",
+    "source": "train:1",
+    "variant": "normalized"
+  },
+  {
+    "text": "i took too many pills and i dont care anymore",
+    "risk": "HIGH",
+    "emotion": "sadness",
+    "originalText": "I took too many pills and I do not care anymore",
+    "split": "train",
+    "source": "train:1",
+    "variant": "casual-slang"
+  },
+  {
+    "text": "going to jump off the bridge after maghrib",
+    "risk": "HIGH",
+    "emotion": "sadness",
+    "originalText": "Going to jump off the bridge after maghrib",
+    "split": "train",
+    "source": "train:2",
+    "variant": "normalized"
+  },
+  {
+    "text": "i have a plan to end my life and nobody can stop me",
+    "risk": "HIGH",
+    "emotion": "sadness",
+    "originalText": "I have a plan to end my life and nobody can stop me",
+    "split": "train",
+    "source": "train:3",
+    "variant": "normalized"
+  },
+  {
+    "text": "i've a plan to end my life and nobody can stop me",
+    "risk": "HIGH",
+    "emotion": "sadness",
+    "originalText": "I have a plan to end my life and nobody can stop me",
+    "split": "train",
+    "source": "train:3",
+    "variant": "casual-slang"
+  },
+  {
+    "text": "i cut myself again because the pain will not stop",
+    "risk": "HIGH",
+    "emotion": "sadness",
+    "originalText": "I cut myself again because the pain will not stop",
+    "split": "train",
+    "source": "train:4",
+    "variant": "normalized"
+  },
+  {
+    "text": "goodbye everyone i am done with this life",
+    "risk": "HIGH",
+    "emotion": "sadness",
+    "originalText": "Goodbye everyone, I am done with this life",
+    "split": "train",
+    "source": "train:5",
+    "variant": "normalized"
+  },
+  {
+    "text": "goodbye everyone i'm done with this life",
+    "risk": "HIGH",
+    "emotion": "sadness",
+    "originalText": "Goodbye everyone, I am done with this life",
+    "split": "train",
+    "source": "train:5",
+    "variant": "casual-slang"
+  },
+  {
+    "text": "the cravings are so strong right now i might use again",
+    "risk": "MED",
+    "emotion": "anxiety",
+    "originalText": "The cravings are so strong right now, I might use again",
+    "split": "train",
+    "source": "train:6",
+    "variant": "normalized"
+  },
+  {
+    "text": "i relapsed yesterday and feel ashamed and shaky",
+    "risk": "MED",
+    "emotion": "sadness",
+    "originalText": "I relapsed yesterday and feel ashamed and shaky",
+    "split": "train",
+    "source": "train:7",
+    "variant": "normalized"
+  },
+  {
+    "text": "i am spiraling after the fight with my family",
+    "risk": "MED",
+    "emotion": "anxiety",
+    "originalText": "I am spiraling after the fight with my family",
+    "split": "train",
+    "source": "train:8",
+    "variant": "normalized"
+  },
+  {
+    "text": "i'm spiraling after the fight with my family",
+    "risk": "MED",
+    "emotion": "anxiety",
+    "originalText": "I am spiraling after the fight with my family",
+    "split": "train",
+    "source": "train:8",
+    "variant": "casual-slang"
+  },
+  {
+    "text": "panic is building and i cannot breathe properly",
+    "risk": "MED",
+    "emotion": "anxiety",
+    "originalText": "Panic is building and I cannot breathe properly",
+    "split": "train",
+    "source": "train:9",
+    "variant": "normalized"
+  },
+  {
+    "text": "panic is building and i cant breathe properly",
+    "risk": "MED",
+    "emotion": "anxiety",
+    "originalText": "Panic is building and I cannot breathe properly",
+    "split": "train",
+    "source": "train:9",
+    "variant": "casual-slang"
+  },
+  {
+    "text": "tempted to drink after a hard day at work",
+    "risk": "MED",
+    "emotion": "anger",
+    "originalText": "Tempted to drink after a hard day at work",
+    "split": "train",
+    "source": "train:10",
+    "variant": "normalized"
+  },
+  {
+    "text": "my withdrawal symptoms are bad and i need help",
+    "risk": "MED",
+    "emotion": "anxiety",
+    "originalText": "My withdrawal symptoms are bad and I need help",
+    "split": "train",
+    "source": "train:11",
+    "variant": "normalized"
+  },
+  {
+    "text": "stayed clean today and called my sponsor feeling proud",
+    "risk": "LOW",
+    "emotion": "hope",
+    "originalText": "Stayed clean today and called my sponsor, feeling proud",
+    "split": "train",
+    "source": "train:12",
+    "variant": "normalized"
+  },
+  {
+    "text": "stayed clean aaj and called my sponsor feeling proud",
+    "risk": "LOW",
+    "emotion": "hope",
+    "originalText": "Stayed clean today and called my sponsor, feeling proud",
+    "split": "train",
+    "source": "train:12",
+    "variant": "noisy"
+  },
+  {
+    "text": "i did my therapy homework and went for a walk",
+    "risk": "LOW",
+    "emotion": "hope",
+    "originalText": "I did my therapy homework and went for a walk",
+    "split": "train",
+    "source": "train:13",
+    "variant": "normalized"
+  },
+  {
+    "text": "nothing special today just a normal day and i am okay",
+    "risk": "LOW",
+    "emotion": "neutral",
+    "originalText": "Nothing special today, just a normal day and I am okay",
+    "split": "train",
+    "source": "train:14",
+    "variant": "normalized"
+  },
+  {
+    "text": "nothing special today just a normal day and i'm okay",
+    "risk": "LOW",
+    "emotion": "neutral",
+    "originalText": "Nothing special today, just a normal day and I am okay",
+    "split": "train",
+    "source": "train:14",
+    "variant": "casual-slang"
+  },
+  {
+    "text": "nothing special aaj just a normal day and i am okay",
+    "risk": "LOW",
+    "emotion": "neutral",
+    "originalText": "Nothing special today, just a normal day and I am okay",
+    "split": "train",
+    "source": "train:14",
+    "variant": "noisy"
+  },
+  {
+    "text": "today a little tired hoon but still safe and moving forward",
+    "risk": "LOW",
+    "emotion": "hope",
+    "originalText": "Aaj thora tired hoon but still safe and moving forward",
+    "split": "train",
+    "source": "train:15",
+    "variant": "normalized"
+  },
+  {
+    "text": "today a little tired hoon but still mehfooz and moving forward",
+    "risk": "LOW",
+    "emotion": "hope",
+    "originalText": "Aaj thora tired hoon but still safe and moving forward",
+    "split": "train",
+    "source": "train:15",
+    "variant": "roman-urdu"
+  },
+  {
+    "text": "aaj a little tired hoon but still safe and moving forward",
+    "risk": "LOW",
+    "emotion": "hope",
+    "originalText": "Aaj thora tired hoon but still safe and moving forward",
+    "split": "train",
+    "source": "train:15",
+    "variant": "noisy"
+  },
+  {
+    "text": "i am grateful for my support system and my progress",
+    "risk": "LOW",
+    "emotion": "hope",
+    "originalText": "I am grateful for my support system and my progress",
+    "split": "train",
+    "source": "train:16",
+    "variant": "normalized"
+  },
+  {
+    "text": "i'm grateful for my support system and my progress",
+    "risk": "LOW",
+    "emotion": "hope",
+    "originalText": "I am grateful for my support system and my progress",
+    "split": "train",
+    "source": "train:16",
+    "variant": "casual-slang"
+  },
+  {
+    "text": "i had a calm evening cooked dinner and slept well",
+    "risk": "LOW",
+    "emotion": "neutral",
+    "originalText": "I had a calm evening, cooked dinner, and slept well",
+    "split": "train",
+    "source": "train:17",
+    "variant": "normalized"
+  }
+]

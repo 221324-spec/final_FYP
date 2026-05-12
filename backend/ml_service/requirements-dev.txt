@@ -1,0 +1,30 @@
+# Recovery Road — ML Service Development & Testing Dependencies
+# Install with: pip install -r requirements-dev.txt
+
+# Include all core dependencies
+-r requirements.txt
+
+# Testing
+pytest==7.4.4                          # Testing framework
+pytest-cov==4.1.0                      # Coverage reporting
+pytest-xdist==3.6.1                    # Parallel test execution
+
+# Code Quality
+black==24.3.0                          # Code formatter
+flake8==7.0.0                          # Linter
+isort==5.13.2                          # Import sorter
+mypy==1.10.0                           # Type checking
+pylint==3.2.3                          # Code analysis
+
+# Debugging & Profiling
+ipython==8.18.1                        # Enhanced Python shell
+jupyter==1.0.0                         # Jupyter notebook
+ipykernel==6.29.4                      # IPython kernel for Jupyter
+line-profiler==4.1.1                   # Line profiling
+
+# Documentation
+sphinx==7.3.7                          # Documentation generator
+sphinx-rtd-theme==2.0.0                # ReadTheDocs theme
+
+# Pre-commit & Hooks
+pre-commit==3.7.1                      # Git pre-commit framework

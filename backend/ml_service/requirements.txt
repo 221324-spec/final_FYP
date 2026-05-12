@@ -1,0 +1,24 @@
+# Recovery Road — ML Service Core Dependencies
+# Python 3.10+ on Windows (CPU-first, optional GPU support)
+# Install with: python -m pip install -r requirements.txt
+#
+# NOTE: This file is for reference only. The system Python 3.10 already has
+# scikit-learn 1.7.2 installed. Only additional packages are required below.
+#
+# These packages have pre-built wheels for 64-bit Python on Windows:
+
+# Web Framework & Server (only Flask is missing from system Python)
+Flask>=2.3.0                           # Web framework
+flask-cors>=6.0.0                      # CORS support
+Werkzeug>=3.0.0                        # WSGI utilities
+
+# Utilities
+python-dotenv>=1.0.0                   # Environment variables
+requests>=2.31.0                       # HTTP client
+pydantic>=2.0.0                        # Data validation
+
+# Optional enhancements (only if using 64-bit Python 3.11+ with wheels)
+# xgboost>=2.0.0                       # Uncomment to enable
+# lightgbm>=4.0.0                      # Uncomment to enable
+# transformers>=4.30.0                 # Uncomment for sentence embeddings
+# torch>=2.0.0                         # Uncomment for transformer support

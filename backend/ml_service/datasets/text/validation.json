@@ -1,0 +1,50 @@
+[
+  {
+    "text": "i feel shaky and tempted but i called someone before acting",
+    "risk": "MED",
+    "emotion": "anxiety",
+    "originalText": "I feel shaky and tempted, but I called someone before acting",
+    "split": "validation",
+    "source": "validation:0"
+  },
+  {
+    "text": "the fight at home still hurts and i am close to using",
+    "risk": "MED",
+    "emotion": "anger",
+    "originalText": "The fight at home still hurts and I am close to using",
+    "split": "validation",
+    "source": "validation:1"
+  },
+  {
+    "text": "today felt peaceful and i kept my routine",
+    "risk": "LOW",
+    "emotion": "hope",
+    "originalText": "Today felt peaceful and I kept my routine",
+    "split": "validation",
+    "source": "validation:2"
+  },
+  {
+    "text": "mujhe thori anxiety hai lekin i am safe for now",
+    "risk": "LOW",
+    "emotion": "anxiety",
+    "originalText": "Mujhe thori ghabrahat hai lekin I am safe for now",
+    "split": "validation",
+    "source": "validation:3"
+  },
+  {
+    "text": "i keep thinking about pills and i do not trust myself",
+    "risk": "HIGH",
+    "emotion": "sadness",
+    "originalText": "I keep thinking about pills and I do not trust myself",
+    "split": "validation",
+    "source": "validation:4"
+  },
+  {
+    "text": "another ordinary day nothing major to report",
+    "risk": "LOW",
+    "emotion": "neutral",
+    "originalText": "Another ordinary day, nothing major to report",
+    "split": "validation",
+    "source": "validation:5"
+  }
+]

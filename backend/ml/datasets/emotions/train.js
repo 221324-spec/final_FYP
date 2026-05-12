@@ -1,0 +1,17 @@
+module.exports = [
+  { text: 'Mujhe bohat ghabrahat ho rahi hai, heart racing fast', emotion: 'anxiety' },
+  { text: 'I am nervous and shaky about tomorrow', emotion: 'anxiety' },
+  { text: 'Feeling empty and alone, nobody understands', emotion: 'sadness' },
+  { text: 'Aaj bohat udaas hoon, crying since morning', emotion: 'sadness' },
+  { text: 'I am furious and cannot stop thinking about the fight', emotion: 'anger' },
+  { text: 'Yaar I am so irritated right now', emotion: 'anger' },
+  { text: 'I am proud of my 30 day streak and feel hopeful', emotion: 'hope' },
+  { text: 'Alhamdulillah, progress is slow but I am healing', emotion: 'hope' },
+  { text: 'Normal day, cooked lunch, went to work', emotion: 'neutral' },
+  { text: 'Just checking in, nothing big to report', emotion: 'neutral' },
+  { text: 'My chest feels tight and I cannot settle down', emotion: 'anxiety' },
+  { text: 'I miss people and feel really low today', emotion: 'sadness' },
+  { text: 'This situation is making me angry and bitter', emotion: 'anger' },
+  { text: 'I am feeling thankful for the small wins today', emotion: 'hope' },
+  { text: 'I cleaned the room, answered emails, and went to bed', emotion: 'neutral' },
+];

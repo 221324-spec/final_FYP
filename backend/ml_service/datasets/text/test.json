@@ -1,0 +1,50 @@
+[
+  {
+    "text": "i almost used but stepped outside and breathed until it passed",
+    "risk": "MED",
+    "emotion": "anxiety",
+    "originalText": "I almost used but stepped outside and breathed until it passed",
+    "split": "test",
+    "source": "test:0"
+  },
+  {
+    "text": "feeling low after the breakup but i am reaching out",
+    "risk": "MED",
+    "emotion": "sadness",
+    "originalText": "Feeling low after the breakup, but I am reaching out",
+    "split": "test",
+    "source": "test:1"
+  },
+  {
+    "text": "i am proud because i stayed clean through a hard day",
+    "risk": "LOW",
+    "emotion": "hope",
+    "originalText": "I am proud because I stayed clean through a hard day",
+    "split": "test",
+    "source": "test:2"
+  },
+  {
+    "text": "no big updates today just checking in",
+    "risk": "LOW",
+    "emotion": "neutral",
+    "originalText": "No big updates today, just checking in",
+    "split": "test",
+    "source": "test:3"
+  },
+  {
+    "text": "i am going to end this tonight because everything is too much",
+    "risk": "HIGH",
+    "emotion": "sadness",
+    "originalText": "I am going to end this tonight because everything is too much",
+    "split": "test",
+    "source": "test:4"
+  },
+  {
+    "text": "today mood okay hai thori si bechaini but manageable",
+    "risk": "LOW",
+    "emotion": "anxiety",
+    "originalText": "Aaj mood okay hai, thori si bechaini but manageable",
+    "split": "test",
+    "source": "test:5"
+  }
+]
