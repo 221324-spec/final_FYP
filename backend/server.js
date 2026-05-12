@@ -932,6 +932,17 @@ app.use((req, res) => {
   });
 });
 
+// TEMPORARY: Allow user to reset their specific email to fix the 401 issue
+app.get('/api/wipe-my-email', async (req, res) => {
+  try {
+    const User = require('./models/User');
+    await User.deleteMany({ email: 'irfanchaudhry355@gmail.com' });
+    res.json({ success: true, message: 'Your email has been wiped from the database. You can now register again!' });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, async () => {
   console.log(`🚀 Recovery Road Backend Server running on port ${PORT}`);
