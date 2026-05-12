@@ -4,7 +4,7 @@ import { getAxiosBaseURL } from './config/env';
 // Create axios instance with base URL (same-origin /api or full URL when VITE_API_ORIGIN is set)
 const api = axios.create({
   baseURL: getAxiosBaseURL(),
-  timeout: 30000,
+  timeout: 100000, // 100s to allow Render free tier backend to wake up
   headers: {
     'Content-Type': 'application/json'
   }
