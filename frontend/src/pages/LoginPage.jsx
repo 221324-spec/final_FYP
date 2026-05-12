@@ -376,7 +376,9 @@ export default function Login() {
         }
       }
     } catch (err) {
-      setRegError(err.response?.data?.error || 'Registration failed');
+      let msg = err.response?.data?.error || err.response?.data?.message || 'Registration failed';
+      if (typeof msg === 'object') msg = msg.message || JSON.stringify(msg);
+      setRegError(msg);
     }
   }
 
@@ -400,7 +402,9 @@ export default function Login() {
         setShowForm(false);
       }, 2000);
     } catch (err) {
-      setRegError(err.response?.data?.error || 'Invalid OTP. Please try again.');
+      let msg = err.response?.data?.error || err.response?.data?.message || 'Invalid OTP. Please try again.';
+      if (typeof msg === 'object') msg = msg.message || JSON.stringify(msg);
+      setRegError(msg);
     } finally {
       setRegVerifying(false);
     }
@@ -412,7 +416,9 @@ export default function Login() {
       await api.post('/auth/resend-verification', { email: regUserEmail });
       setRegError('✓ Verification email resent! Please check your inbox.');
     } catch (err) {
-      setRegError(err.response?.data?.error || 'Failed to resend verification email');
+      let msg = err.response?.data?.error || err.response?.data?.message || 'Failed to resend verification email';
+      if (typeof msg === 'object') msg = msg.message || JSON.stringify(msg);
+      setRegError(msg);
     }
   }
 
@@ -469,7 +475,8 @@ export default function Login() {
       }
     } catch (err) {
       const errorCode = err.response?.data?.code;
-      const errorMsg = err.response?.data?.error || err.response?.data?.message || 'Login failed';
+      let errorMsg = err.response?.data?.error || err.response?.data?.message || 'Login failed';
+      if (typeof errorMsg === 'object') errorMsg = errorMsg.message || JSON.stringify(errorMsg);
       const requiresVerification = err.response?.data?.requiresVerification;
       const isPendingApprovalResp = err.response?.data?.pendingApproval;
 
